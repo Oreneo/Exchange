@@ -1,0 +1,58 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Example of Twitter Bootstrap 3 Tables with Borders</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+-->
+
+
+
+<style type="text/css">
+    .bs-example{
+    	margin: 20px;
+		direction:rtl;
+    }
+	
+	.table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
+		background-color: #550055;
+		color:#eeeeee;
+	}
+	
+}
+	
+</style>
+
+
+<body> 
+<div class="bs-example">
+
+	<br><h1>תקלות פתוחות</h1><br><br>
+	
+    <table class="table table-bordered table-hover" dir="rtl">
+        <thead>
+            <tr>
+                <th>מספר תקלה</th>
+                <th>שם משתמש</th>
+                <th>סוג תקלה</th>
+                <th>איזור</th>
+				<th>תיאור התקלה</th>
+				<th>תאריך פתיחה</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="d in data" ng-click="row_click(d.case_id)" <!--ui-sref="casedetails({id:d.case_id})"-->
+				<td>{{d.case_id}}</td> 
+				<td>{{d.case_user}}</td>
+				<td>{{d.case_reason}}</td>
+				<td>{{d.case_location}}</td>
+				<td>{{d.case_description}}</td>
+				<td>{{d.case_creation_date}}</td>
+			</tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,6 @@
+[
+{"problem_id":"0", "problem":"Hardware issue", "subproblems":[{"problem_id":"0", "problem":"pC cannot boot", "subproblems":[]}]},
+{"problem_id":"1", "problem":"software issue", "subproblems":[{"problem_id":"0", "problem":"No office", "subproblems":[{"problem_id":"0", "problem":"No license", "subproblems":[]}]}]},
+{"problem_id":"2", "problem":"Network issue", "subproblems":[{"problem_id":"0", "problem":"No cable", "subproblems":[]}, {"problem_id":"1", "problem":"No link", "subproblems":[{"problem_id":"0", "problem":"NIC disabled", "subproblems":[]}]}]},
+{"problem_id":"3", "problem":"General", "subproblems":[]}
+]

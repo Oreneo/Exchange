@@ -1,0 +1,46 @@
+INFO - GUI constructed
+INFO - GUI constructed
+INFO - GUI constructed
+INFO - GUI constructed
+INFO - GUI constructed
+INFO - GUI constructed
+INFO - GUI constructed
+INFO - GUI constructed
+INFO - GUI constructed
+INFO - GUI constructed
+INFO - GUI constructed
+INFO - GUI constructed
+INFO - GUI constructed
+INFO - GUI constructed
+INFO - GUI constructed
+INFO - GUI constructed
+INFO - xmlParse Thread started
+INFO - Updated rates from xml file
+INFO - Exit GUI clicked - terminate program
+INFO - GUI constructed
+INFO - xmlParse Thread started
+INFO - Exit GUI clicked - terminate program
+INFO - GUI constructed
+INFO - xmlParse Thread started
+INFO - Exit GUI clicked - terminate program
+INFO - GUI constructed
+INFO - xmlParse Thread started
+INFO - Exit GUI clicked - terminate program
+INFO - GUI constructed
+INFO - xmlParse Thread started
+INFO - Exit GUI clicked - terminate program
+INFO - GUI constructed
+INFO - xmlParse Thread started
+INFO - Updated rates from xml file
+INFO - Successfully Calculated
+INFO - Updated rates from xml file
+INFO - Updated rates from xml file
+INFO - Updated rates from xml file
+INFO - Updated rates from xml file
+INFO - Updated rates from xml file
+INFO - Exit GUI clicked - terminate program
+INFO - GUI constructed
+INFO - xmlParse Thread started
+INFO - Updated rates from xml file
+INFO - Successfully Calculated
+INFO - Exit GUI clicked - terminate program
